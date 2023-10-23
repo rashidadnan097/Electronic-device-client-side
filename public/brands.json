@@ -2,32 +2,50 @@
     {
         "id": "1",
         "pic": "https://i.ibb.co/qRcZ8FT/app.png",
-        "name": "Apple"
+        "name": "Apple",
+        "left": "https://i.ibb.co/MnM1MJY/app1.jpg",
+        "right": "https://i.ibb.co/y8Cg8rc/app2.jpg",
+        "mid": "https://i.ibb.co/S6KMm7g/app3.jpg"
     },
     {
         "id": "2",
         "pic": "https://i.ibb.co/GWCzsq1/sony.jpg",
-        "name": "Sony"
+        "name": "Sony",
+        "left": "https://i.ibb.co/G945vYX/son1.jpg",
+        "right": "https://i.ibb.co/JtGZt22/son2.jpg",
+        "mid": "https://i.ibb.co/Trxtxv0/son3.jpg"
     },
     {
         "id": "3",
         "pic": "https://i.ibb.co/CKRThxX/go.jpg",
-        "name": "Google"
+        "name": "Google",
+        "left": "https://i.ibb.co/kqnghPx/gog1.jpg",
+        "right": "https://i.ibb.co/3M8wjrm/gog2.jpg",
+        "mid": "https://i.ibb.co/9h1sgTM/gog3.webp"
     },
     {
         "id": "4",
         "pic": "https://i.ibb.co/gDMnvWd/ama.png",
-        "name": "Amazon"
+        "name": "Amazon",
+        "left": "https://i.ibb.co/Wym0tgW/ama1.jpg",
+        "right": "https://i.ibb.co/h2KmPKr/ama2.jpg",
+        "mid": "https://i.ibb.co/NxbLV3N/ama3.jpg"
     },
     {
         "id": "5",
         "pic": "https://i.ibb.co/BwzF1jm/LG.png",
-        "name": "LG"
+        "name": "LG",
+        "left": "https://i.ibb.co/R67YrQ7/lg1.jpg",
+        "right": "https://i.ibb.co/tQYgmLq/lg2.webp",
+        "mid": "https://i.ibb.co/WWkMx5p/lg3.jpg"
     },
     {
         "id": "6",
         "pic": "https://i.ibb.co/YpXSvff/toshiba.jpg",
-        "name": "Toshiba"
+        "name": "Toshiba",
+        "left": "https://i.ibb.co/NWKHVxN/to2.jpg",
+        "right": "https://i.ibb.co/6Fk0BgF/to1.jpg",
+        "mid": "https://i.ibb.co/NVd2TrK/to3.jpg"
     }
 
 ]

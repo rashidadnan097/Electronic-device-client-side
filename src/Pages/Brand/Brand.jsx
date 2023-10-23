@@ -8,7 +8,7 @@ const Brand = () => {
     const [brand, setBrand] = useState({})
 
 
-    const id = useParams()
+    const {id} = useParams()
   
      
     const brands = useLoaderData()
