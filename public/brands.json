@@ -1,0 +1,33 @@
+[
+    {
+        "id": "1",
+        "pic": "https://i.ibb.co/qRcZ8FT/app.png",
+        "name": "Apple"
+    },
+    {
+        "id": "2",
+        "pic": "https://i.ibb.co/GWCzsq1/sony.jpg",
+        "name": "Sony"
+    },
+    {
+        "id": "3",
+        "pic": "https://i.ibb.co/CKRThxX/go.jpg",
+        "name": "Google"
+    },
+    {
+        "id": "4",
+        "pic": "https://i.ibb.co/gDMnvWd/ama.png",
+        "name": "Amazon"
+    },
+    {
+        "id": "5",
+        "pic": "https://i.ibb.co/BwzF1jm/LG.png",
+        "name": "LG"
+    },
+    {
+        "id": "6",
+        "pic": "https://i.ibb.co/YpXSvff/toshiba.jpg",
+        "name": "Toshiba"
+    }
+
+]
