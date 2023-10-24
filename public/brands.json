@@ -5,7 +5,19 @@
         "name": "Apple",
         "left": "https://i.ibb.co/MnM1MJY/app1.jpg",
         "right": "https://i.ibb.co/y8Cg8rc/app2.jpg",
-        "mid": "https://i.ibb.co/S6KMm7g/app3.jpg"
+        "mid": "https://i.ibb.co/S6KMm7g/app3.jpg",
+        "pro1": "Laptop",
+        "im1": "https://i.ibb.co/NLk6sTF/applap.jpg",
+        "im2": "https://i.ibb.co/J3p6f5G/appcam.jpg",
+        "im3": "https://i.ibb.co/zVn3YGq/appPho.jpg",
+        "im4": "https://i.ibb.co/qj4NJGV/appwat.jpg",
+        "pro2": "Camera",
+        "pro3": "Phone",
+        "pro4": "Watch",
+        "p1": "90000",
+        "p2": "80000",
+        "p3": "50000",
+        "p4": "5000"
     },
     {
         "id": "2",
@@ -13,7 +25,19 @@
         "name": "Sony",
         "left": "https://i.ibb.co/G945vYX/son1.jpg",
         "right": "https://i.ibb.co/JtGZt22/son2.jpg",
-        "mid": "https://i.ibb.co/Trxtxv0/son3.jpg"
+        "mid": "https://i.ibb.co/Trxtxv0/son3.jpg",
+        "im1": "https://i.ibb.co/7KwJQH3/sonypho.webp",
+        "im2": "https://i.ibb.co/NsNrK8v/soncam.jpg",
+        "im3": "https://i.ibb.co/1Z9zDpV/sontv.jpg",
+        "im4": "https://i.ibb.co/BggM4pn/sonrem.jpg",
+        "pro1": "Phone",
+        "pro2": "Camera",
+        "pro3": "TV",
+        "pro4": "Remote",
+        "p1": "10000",
+        "p2": "40000",
+        "p3": "30000",
+        "p4": "500"
     },
     {
         "id": "3",
@@ -21,7 +45,19 @@
         "name": "Google",
         "left": "https://i.ibb.co/kqnghPx/gog1.jpg",
         "right": "https://i.ibb.co/3M8wjrm/gog2.jpg",
-        "mid": "https://i.ibb.co/9h1sgTM/gog3.webp"
+        "mid": "https://i.ibb.co/9h1sgTM/gog3.webp",
+        "im1": "https://i.ibb.co/RC7J8Dd/goopho.jpg",
+        "im2": "https://i.ibb.co/98G8t6W/goolap.jpg",
+        "im3": "https://i.ibb.co/W6LnHBh/goowat.jpg",
+        "im4": "https://i.ibb.co/r3pFSVM/goonest.jpg",
+        "pro1": "Phone",
+        "pro2": "Laptop",
+        "pro3": "Watch",
+        "pro4": "Camera",
+        "p1": "30000",
+        "p2": "80000",
+        "p3": "4000",
+        "p4": "50000"
     },
     {
         "id": "4",
@@ -29,7 +65,19 @@
         "name": "Amazon",
         "left": "https://i.ibb.co/Wym0tgW/ama1.jpg",
         "right": "https://i.ibb.co/h2KmPKr/ama2.jpg",
-        "mid": "https://i.ibb.co/NxbLV3N/ama3.jpg"
+        "mid": "https://i.ibb.co/NxbLV3N/ama3.jpg",
+        "im1": "https://i.ibb.co/wsWR1zV/amapc.jpg",
+        "im2": "https://i.ibb.co/N35dPYH/amapho.jpg",
+        "im3": "https://i.ibb.co/L1QfnQp/amacam.jpg",
+        "im4": "https://i.ibb.co/jzy5nHb/amahea.webp",
+        "pro1": "PC",
+        "pro2": "Phone",
+        "pro3": "Camera",
+        "pro4": "Head Phone",
+        "p1": "90000",
+        "p2": "20000",
+        "p3": "60000",
+        "p4": "1200"
     },
     {
         "id": "5",
@@ -37,7 +85,19 @@
         "name": "LG",
         "left": "https://i.ibb.co/R67YrQ7/lg1.jpg",
         "right": "https://i.ibb.co/tQYgmLq/lg2.webp",
-        "mid": "https://i.ibb.co/WWkMx5p/lg3.jpg"
+        "mid": "https://i.ibb.co/WWkMx5p/lg3.jpg",
+        "im1": "https://i.ibb.co/Vj2j1ds/lglap.webp",
+        "im2": "https://i.ibb.co/M27RqPL/lgtv3.webp",
+        "im3": "https://i.ibb.co/Lxxh7dq/lgpho.jpg",
+        "im4": "https://i.ibb.co/ZfPQhMB/lgka.webp",
+        "pro1": "Laptop",
+        "pro2": "TV",
+        "pro3": "Phone",
+        "pro4": "Watch",
+        "p1": "45000",
+        "p2": "30000",
+        "p3": "10000",
+        "p4": "1000"
     },
     {
         "id": "6",
@@ -45,7 +105,19 @@
         "name": "Toshiba",
         "left": "https://i.ibb.co/NWKHVxN/to2.jpg",
         "right": "https://i.ibb.co/6Fk0BgF/to1.jpg",
-        "mid": "https://i.ibb.co/NVd2TrK/to3.jpg"
+        "mid": "https://i.ibb.co/NVd2TrK/to3.jpg",
+        "im1": "https://i.ibb.co/c1hCGVm/tolap.jpg",
+        "im2": "https://i.ibb.co/1JmRbp9/to-tv.jpg",
+        "im3": "https://i.ibb.co/W30d0TL/tocam.jpg",
+        "im4": "https://i.ibb.co/PTwHtJG/toshhea.jpg",
+        "pro1": "Laptop",
+        "pro2": "TV",
+        "pro3": "Camera",
+        "pro4": "Head Phone",
+        "p1": "70000",
+        "p2": "40000",
+        "p3": "60000",
+        "p4": "2000"
     }
 
 ]

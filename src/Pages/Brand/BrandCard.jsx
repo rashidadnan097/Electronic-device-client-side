@@ -1,7 +1,7 @@
 
 
 const BrandCard = ({brand}) => {
-    const {left, right, mid} = brand ;
+    const {name, left, right, mid, im1, im2, im3, im4, pro1, pro2, pro3, pro4, p1, p2, p3, p4} = brand ;
 
     return (
        <div>
@@ -31,8 +31,107 @@ const BrandCard = ({brand}) => {
 </div>
    <div>
     <h1 className="text-center mt-2 text-3xl font-bold">Our awesome brands product</h1>
-    <div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 mb-10 ml-20">
       
+    <div className="card h-[350px] w-[350px] bg-base-100 shadow-xl">
+  <figure><img className="h-[200px] w-[400px]" src={im1}  /></figure>
+  <div className="card-body">
+    <div className="flex ">
+    <h2 className="card-title">Brand:{name}</h2>
+    <h2 className="card-title ml-10">Type: {pro1}</h2>
+    </div>
+    <div className="flex">
+    <div className="rating mt-3">
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+</div>
+   <div><h2 className="ml-14 font-bold mt-3">Price: {p1}</h2></div>
+    </div>
+    <div className="card-actions ">
+    <button className="btn btn-primary">Update</button>
+      <button className="btn btn-primary ml-20">Details</button>
+    </div>
+  </div>
+</div>
+<div className="card h-[350px] w-[350px] bg-base-100 shadow-xl">
+  <figure><img className="h-[200px] w-[400px]" src={im2}  /></figure>
+  <div className="card-body">
+    <div className="flex ">
+    <h2 className="card-title">Brand:{name}</h2>
+    <h2 className="card-title ml-10">Type: {pro2}</h2>
+    </div>
+    <div className="flex">
+    <div className="rating mt-3">
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+</div>
+   <div><h2 className="ml-14 font-bold mt-3">Price: {p2}</h2></div>
+    </div>
+    <div className="card-actions ">
+    <button className="btn btn-primary">Update</button>
+      <button className="btn btn-primary ml-20">Details</button>
+    </div>
+  </div>
+</div>
+<div className="card h-[350px] w-[350px] bg-base-100 shadow-xl">
+  <figure><img className="h-[200px] w-[400px]" src={im3}  /></figure>
+  <div className="card-body">
+    <div className="flex ">
+    <h2 className="card-title">Brand:{name}</h2>
+    <h2 className="card-title ml-10">Type: {pro3}</h2>
+    </div>
+    <div className="flex">
+    <div className="rating mt-3">
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+</div>
+   <div><h2 className="ml-14 font-bold mt-3">Price: {p3}</h2></div>
+    </div>
+    <div className="card-actions ">
+    <button className="btn btn-primary">Update</button>
+      <button className="btn btn-primary ml-20">Details</button>
+    </div>
+  </div>
+</div>
+<div className="card h-[350px] w-[350px] bg-base-100 shadow-xl">
+  <figure><img className="h-[200px] w-[400px]" src={im4}  /></figure>
+  <div className="card-body">
+    <div className="flex ">
+    <h2 className="card-title">Brand:{name}</h2>
+    <h2 className="card-title ml-10">Type: {pro4}</h2>
+    </div>
+    <div className="flex">
+    <div className="rating mt-3">
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+</div>
+   <div><h2 className="ml-14 font-bold mt-3">Price: {p4}</h2></div>
+    </div>
+    <div className="card-actions ">
+    <button className="btn btn-primary">Update</button>
+      <button className="btn btn-primary ml-20">Details</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
     </div>
    </div>
        </div>
