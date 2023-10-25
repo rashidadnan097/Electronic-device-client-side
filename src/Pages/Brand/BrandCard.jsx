@@ -1,7 +1,12 @@
+import { Link } from "react-router-dom";
+import swal from "sweetalert";
+
 
 
 const BrandCard = ({brand}) => {
-    const {name, left, right, mid, im1, im2, im3, im4, pro1, pro2, pro3, pro4, p1, p2, p3, p4} = brand ;
+    const {id, name, left, right, mid, im1, im2, im3, im4, pro1, pro2, pro3, pro4, p1, p2, p3, p4} = brand ;
+
+   
 
     return (
        <div>
@@ -52,7 +57,7 @@ const BrandCard = ({brand}) => {
     </div>
     <div className="card-actions ">
     <button className="btn btn-primary">Update</button>
-      <button className="btn btn-primary ml-20">Details</button>
+   <Link to={`/details/${id}`}> <button  className="btn btn-primary ml-20">Details</button></Link>
     </div>
   </div>
 </div>
@@ -75,7 +80,7 @@ const BrandCard = ({brand}) => {
     </div>
     <div className="card-actions ">
     <button className="btn btn-primary">Update</button>
-      <button className="btn btn-primary ml-20">Details</button>
+    <Link to={`/details/${id}`}> <button  className="btn btn-primary ml-20">Details</button></Link>
     </div>
   </div>
 </div>
@@ -98,7 +103,7 @@ const BrandCard = ({brand}) => {
     </div>
     <div className="card-actions ">
     <button className="btn btn-primary">Update</button>
-      <button className="btn btn-primary ml-20">Details</button>
+    <Link to={`/details/${id}`}> <button  className="btn btn-primary ml-20">Details</button></Link>
     </div>
   </div>
 </div>
@@ -121,7 +126,7 @@ const BrandCard = ({brand}) => {
     </div>
     <div className="card-actions ">
     <button className="btn btn-primary">Update</button>
-      <button className="btn btn-primary ml-20">Details</button>
+    <Link to={`/details/${id}`}> <button  className="btn btn-primary ml-20">Details</button></Link>
     </div>
   </div>
 </div>

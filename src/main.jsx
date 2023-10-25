@@ -13,6 +13,8 @@ import AddProduct from './Pages/AddProduct/AddProduct';
 import MyCart from './Pages/MyCart/MyCart';
 import Errorpage from './Pages/ErrorPage/Errorpage';
 import Brand from './Pages/Brand/Brand';
+import Detail from './Pages/Detail/Detail';
+
 
 
 const router = createBrowserRouter([
@@ -29,17 +31,26 @@ const router = createBrowserRouter([
       },
       {
         path: "/addProduct",
-        element: <AddProduct></AddProduct>
+        element: <AddProduct></AddProduct>,
+        
+        
       },
       {
         path: "/myCart",
-        element: <MyCart></MyCart>
+        element: <MyCart></MyCart>,
+        
       },
       {
         path: "/brands/:id",
         element: <Brand></Brand>,
         loader: ()=> fetch("/brands.json")
-      }
+      },
+      {
+        path: "/details/:id",
+        element:<Detail></Detail>,
+        loader: ()=> fetch("/brands.json")
+      },
+     
       
     ]
   },
